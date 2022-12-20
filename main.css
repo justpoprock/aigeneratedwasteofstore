@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.featured-waste {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.featured-waste img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.featured-waste h3 {
+  margin: 0;
+}
+
+.featured-waste p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.featured-waste button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.waste-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.waste {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.waste img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.waste h3 {
+  margin: 0;
+}
+
+.waste p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.waste button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
